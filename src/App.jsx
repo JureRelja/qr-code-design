@@ -3,30 +3,20 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="App">
-      <div className="h-[200px]">
-        <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="flex justify-center items-center bg-[#D6E2F0] h-[100vh]">
+      <div className="text-center bg-white p-4 rounded-2xl shadow-xl w-[330px] shadow-gray-300">
+        <img className="rounded-xl" src="./assets/image-qr-code.png" />
+        <div className="my-5 mx-1">
+          <h3 className="text-2xl font-bold text-[#1F3251] pb-4  leading-1">
+            Improve your front-end skils by building projects
+          </h3>
+          <p className="text-base font-normal text-[#8e969e]  leading-none">
+            Scan this QR code to visit Frontend Mentor and put your coding
+            skills to the test.
+          </p>
+        </div>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </div>
   );
 }
