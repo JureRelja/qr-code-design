@@ -2,12 +2,14 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Table of contents
 
-- [Overview](#overview)
+- [Overview](#live-version)
   - [Screenshot](#screenshot)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 
-## Overview
+## Live version
+
+https://jure-qr-code-creator.netlify.app/
 
 ### Screenshot
 
